@@ -1,0 +1,55 @@
+python-pyasn1-modules (0.2.1-1) unstable; urgency=medium
+
+  * Take over under DPMT umbrella, Marc is still part of Uploaders
+  * Drop python2 support; Closes: #938055
+
+ -- Sandro Tosi <morph@debian.org>  Sat, 04 Apr 2020 20:09:23 -0400
+
+python-pyasn1-modules (0.2.1-0.2) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * control: Bump build-depends on python-pyasn1.
+  * Upload to unstable.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Tue, 02 Jan 2018 13:18:24 +0200
+
+python-pyasn1-modules (0.2.1-0.1) experimental; urgency=medium
+
+  * Non-maintainer upload.
+  * New upstream release. Builds with pyasn1 0.4.2.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Sun, 24 Dec 2017 22:09:18 +0200
+
+python-pyasn1-modules (0.0.7-0.1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * New upstream release. Builds with pyasn 0.1.8. Closes: #796473.
+  * Run the tests for all python3 versions.
+  * Update watch file.
+
+ -- Matthias Klose <doko@debian.org>  Thu, 10 Sep 2015 15:44:06 +0200
+
+python-pyasn1-modules (0.0.5-0.1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * New upstream release.
+  * Build depend on python-pyasn1 and python3-pyasn1 to correctly
+    generate package dependencies. See Debian #756378.
+  * Bump standards version to 3.9.5.
+  * Add a watch file.
+  * Run the testsuite for python and python3.
+
+ -- Matthias Klose <doko@debian.org>  Tue, 29 Jul 2014 11:35:23 +0200
+
+python-pyasn1-modules (0.0.3-1.1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * Build a python3 package. Closes: #754868.
+
+ -- Matthias Klose <doko@debian.org>  Mon, 21 Jul 2014 13:07:30 +0200
+
+python-pyasn1-modules (0.0.3-1) unstable; urgency=low
+
+  * Initial release (Closes: #679399)
+
+ -- Marc Haber <mh+debian-packages@zugschlus.de>  Fri, 22 Jun 2012 12:50:13 +0200
